@@ -22,3 +22,13 @@ class PersonaSerializer(serializers.ModelSerializer):
             'survived',
         )
         model = models.Persona
+
+class ImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        fields = (
+            'id',
+            'image',
+            'label',
+            'probability',
+        )
+        model = models.Image

@@ -5,22 +5,12 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import make_column_transformer, ColumnTransformer
 from sklearn.pipeline import Pipeline
-#from sklearn.model_selection import train_test_split
-
 from tensorflow.python.keras.models import load_model, model_from_json
 from keras import backend as K
 from apiSNN import models
-
 import os
-#import keras
-#from keras.layers import Dense
 from tensorflow.python.keras.models import Sequential
-
 import pathlib
-#from keras.wrappers.scikit_learn import KerasClassifier
-#from sklearn.model_selection import cross_val_score
-#from sklearn.model_selection import GridSearchCV
-#from keras.layers import Dropout
 
 class modeloSNN():
     """Clase modelo SNN"""

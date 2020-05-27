@@ -25,8 +25,8 @@ SECRET_KEY = 'cofatjc=*e6=bg&2boyecis_v(c+4!frkdqz7^e(o(fn86lhq-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','proyectoml-jpremar.appspot.com']
-#ALLOWED_HOSTS = ['remigiohurtadoins.pythonanywhere.com']
+#ESTO SE MODIFICÓ. SE DEBE PONER EL DOMINIO ESPECÍFICO
+ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1','proyectomlweb.uc.r.appspot.com','proyectomlweb.appspot.com']
 
 # Application definition
 
@@ -37,11 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apiSNN.apps.ApiSNNConfig',
-    'rest_framework',
-    'drf_yasg',
+    'apiSNN.apps.ApiSNNConfig',#ESTO SE AÑADIÓ
+    'rest_framework',#ESTO SE AÑADIÓ
+    'drf_yasg',#ESTO SE AÑADIÓ
+    'polls',#ESTO SE AÑADIÓ
 ]
 
+#ESTO SE AÑADIO
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
@@ -67,7 +69,7 @@ ROOT_URLCONF = 'ProyectoML.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['apiSNN/templates'],#ESTO SE AÑADIO
+        'DIRS': ['apiSNN/templates'],#ESTO SE MODIFICÓ
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

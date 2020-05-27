@@ -4,8 +4,8 @@ from django.conf.urls import url
 from apiSNN import views
 
 urlpatterns = [
-    path('', views.ListLibro.as_view()),
-    path('<int:pk>/', views.DetailLibro.as_view()),
+    path('libros/', views.ListLibro.as_view()),
+    path('libros/<int:pk>/', views.DetailLibro.as_view()),
     path('personas/', views.ListPersona.as_view()),
     path('personas/<int:pk>/', views.DetailPersona.as_view()),
     url(r'^sobrevivencia/$',views.Clasificacion.determinarSobrevivencia),
