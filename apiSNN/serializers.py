@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from apiSNN import models
 
+
 class LibroSerializer(serializers.ModelSerializer):
     class Meta:
         fields = (
@@ -9,6 +10,7 @@ class LibroSerializer(serializers.ModelSerializer):
             'description',
         )
         model = models.Libro
+
 
 class PersonaSerializer(serializers.ModelSerializer):
     class Meta:
@@ -22,6 +24,7 @@ class PersonaSerializer(serializers.ModelSerializer):
             'survived',
         )
         model = models.Persona
+
 
 class ImageSerializer(serializers.ModelSerializer):
     class Meta:
