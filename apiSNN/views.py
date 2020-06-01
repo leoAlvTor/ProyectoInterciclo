@@ -1,12 +1,13 @@
 # CONTROLADOR
-
+from django.core.files.storage import FileSystemStorage
 from rest_framework import generics  # para microservicio
 from apiSNN import models
 from apiSNN import serializers
-
 from django.shortcuts import render
 import pyrebase  # para consumo servicio base de datos de firebase
 from apiSNN.Logica import modeloSNN  # para utilizar modelo SNN
+import os
+from apiSNN.Logica import modeloCNN
 
 
 # Create your views here.
@@ -66,6 +67,8 @@ auth = firebase.auth()
 
 
 class Autenticacion():
+    def main_page(request):
+        return render(request, "main.html")
 
     def singIn(request):
 
@@ -80,13 +83,30 @@ class Autenticacion():
         except:
             message = "invalid cerediantials"
             return render(request, "signIn.html", {"msg": message})
-        print(user)
-        return render(request, "welcome.html", {"e": email})
 
 
 class Clasificacion():
-    # imagen = models.ImageField(upload_to='imagenes')
-    # prediccion = models.CharField(max_length=200, blank=True)
+    file_path = ""
+    prediccion = dict()
+
+    def upload_image(request):
+        global file_path, prediccion
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        if request.method == 'POST':
+            print('--' * 20)
+            upload_file = request.FILES['elm_img']
+
+            fs = FileSystemStorage()
+            fs.save(upload_file.name, upload_file)
+
+            file = open(BASE_DIR + '/media/' + upload_file.name, 'r')
+            file_path = BASE_DIR + '/media/' + upload_file.name
+            print(' -- FIN PROCESO CARGAR -- '*5)
+            prediccion = modeloCNN.predecir_imagen(file_path)
+            print(prediccion, '<----------------------')
+        return render(request, "main.html", {"pred": prediccion.get('pred'), "prob": prediccion.get('prob')})
+
+
 
     def determinarSobrevivencia(request):
         return render(request, "sobrevivencia.html")
@@ -110,3 +130,4 @@ class Clasificacion():
         resul = modeloSNN.modeloSNN.predecirSobrevivencia(modeloSNN.modeloSNN, pclass, sex, age, fare, embarked)
 
         return render(request, "welcome.html", {"e": resul})
+

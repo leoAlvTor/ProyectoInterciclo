@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
     <title>Research Application Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
   <body>
     <script>
@@ -32,26 +33,25 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); /* IE 9 */
     -webkit-transform: translate(-50%, -50%); width: 60%; height: 70%; max-width: 900px;">
-    <form action="/">
+    {% block content %}
+    <form action="/apiSNN/predecir/" enctype="multipart/form-data" method="POST">
+        {% csrf_token %}
       <div class="banner">
         <h1>Sistema De Prediccion Con CNN</h1>
       </div>
 
       <div class="item">
-        <p>Link de la Imagen<span class="required">*</span></p>
-        <input id="elm_link" name="elm_link" type="text" name="name" onfocusout="previewImageLink()"/>
-      </div>
-      <div class="item">
         <p>Subir una Imagen</p>
-        <input id="elm_upload" name="elm_upload" type="file" name="name" accept="image/x-png, image/jpeg" onchange="previewImageInput()"/>
+        <input id="id_upload" name="elm_img" type="file" accept="image/x-png, image/jpeg" onchange="previewImageInput()"/>
       </div>
       <div class="item" style="width: 65%; height: 65%; display: block; margin-left: auto; margin-right: auto;">
-        <img id="elm_img" src= "" style="width: 65%; height: 65%;" name="elm_upload">
+        <img id="elm_img" src= "" style="width: 65%; height: 65%;" name="elm_img">
       </div>
       <div class="item">
         <input type="submit" value="PREDECIR IMAGEN">
       </div>
     </form>
+    {% endblock %}
     </div>
   </body>
 </html>

@@ -25,7 +25,6 @@ class modeloSNN():
         resultado = num1 + num2
         return resultado
 
-
     def cargarRNN(nombreArchivoModelo, nombreArchivoPesos):
         K.reset_uids()
         # Cargar la Arquitectura desde el archivo JSON
