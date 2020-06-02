@@ -8,6 +8,7 @@ import pyrebase  # para consumo servicio base de datos de firebase
 from apiSNN.Logica import modeloSNN  # para utilizar modelo SNN
 import os
 from apiSNN.Logica import modeloCNN
+from datetime import datetime
 
 
 # Create your views here.
@@ -97,14 +98,18 @@ class Clasificacion():
             upload_file = request.FILES['elm_img']
 
             fs = FileSystemStorage()
-            fs.save(upload_file.name, upload_file)
+            dtm = datetime.today()
 
-            file = open(BASE_DIR + '/media/' + upload_file.name, 'r')
-            file_path = BASE_DIR + '/media/' + upload_file.name
+            leo = str(int(dtm.timestamp()))
+            print(leo, '<', '-'*25)
+            fs.save(leo+upload_file.name, upload_file)
+
+            file = open(BASE_DIR + '/media/' + leo + upload_file.name, 'r')
+            file_path = BASE_DIR + '/media/' + leo + upload_file.name
             print(' -- FIN PROCESO CARGAR -- '*5)
             prediccion = modeloCNN.predecir_imagen(file_path)
-            print(prediccion, '<----------------------')
-        return render(request, "main.html", {"pred": prediccion.get('pred'), "prob": prediccion.get('prob')})
+            print(prediccion, '<---------------------')
+        return render(request, "prediccion.html", {"pred": prediccion.get('pred'), "prob": prediccion.get('prob')})
 
 
 
