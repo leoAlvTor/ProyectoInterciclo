@@ -11,8 +11,8 @@ def predecir_imagen(img_url):
     print()
 
     tam_img = (128, 128)
-    url_modelo= r'apiSNN/Logica/modelo'
-    url_pesos = r'apiSNN/Logica/pesos'
+    url_modelo= r'apiCNN/Logica/modelo'
+    url_pesos = r'apiCNN/Logica/pesos'
 
     print(' -- INTENTA CARGAR -- ' * 5)
 

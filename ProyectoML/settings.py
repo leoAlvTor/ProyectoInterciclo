@@ -26,7 +26,7 @@ SECRET_KEY = 'cofatjc=*e6=bg&2boyecis_v(c+4!frkdqz7^e(o(fn86lhq-'
 DEBUG = True
 
 #ESTO SE MODIFICÓ. SE DEBE PONER EL DOMINIO ESPECÍFICO
-ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1','proyectomlweb.uc.r.appspot.com','proyectomlweb.appspot.com']
+ALLOWED_HOSTS = ['0.0.0.0', '107.178.213.194', '127.0.0.1', 'proyectomlweb.uc.r.appspot.com', 'proyectomlweb.appspot.com']
 
 # Application definition
 
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apiSNN.apps.ApiSNNConfig',#ESTO SE AÑADIÓ
+    'apiCNN.apps.ApiSNNConfig',#ESTO SE AÑADIÓ
     'rest_framework',#ESTO SE AÑADIÓ
     'drf_yasg',#ESTO SE AÑADIÓ
     'polls',#ESTO SE AÑADIÓ
@@ -69,7 +69,7 @@ ROOT_URLCONF = 'ProyectoML.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['apiSNN/templates'],#ESTO SE MODIFICÓ
+        'DIRS': ['apiCNN/templates'],#ESTO SE MODIFICÓ
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -85,30 +85,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ProyectoML.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-#DATABASES = {
-#       'default': {
-#           'ENGINE': 'django.db.backends.sqlite3',
-#           'NAME': ':memory:',
-#           'TEST' : 
-#               {
-#                   'NAME': 'test_db',
-#               }
-#       },
-#}
-
-
-# Password validation
-# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -125,10 +107,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/3.0/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -138,10 +116,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
 
