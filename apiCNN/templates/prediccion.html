@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CNN PROJECT</title>
+    <title>CNN PROJECT</title><meta charset="UTF-8"
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -24,21 +24,21 @@
     -webkit-transform: translate(-50%, -50%); width: 60%; height: 70%; max-width: 900px;">
     <form action="/">
       <div class="banner">
-        <h1>Prediccion del Sistema</h1>
+        <h1>Predicción del Sistema</h1>
       </div>
-
+        <br>
+        <h1 style="color: black">La siguiente imagen: </h1><br><br>
+        <img src="{{ url_img }}">
       <div class="item">
-          <p><strong>Animal Predecido:</strong></p>
-        <input id="elm_link" name="elm_link" type="text" value="{{ pred }}" readonly/>
+          <p><strong>Fue predicha como la siguiente clase: {{ pred }}</strong></p>
       </div>
       <div class="item">
-          <p><strong>Probabilidad:</strong></p>
-        <input id="elm_upload" name="elm_upload" type="text" value="{{ prob }}" readonly/>
+          <p><strong>Con una probabilidad del {{ prob }}</strong></p>
       </div>
       <div class="item" style="width: 100%">
-          <input onclick="goBack()" type="button" value="REGRESAR A LA PAGINA ANTERIOR">
+          <input onclick="goBack()" type="button" value="Regresar A La Página Anterior">
       </div>
     </form>
     </div>
   </body>
-</html>
+</html>url_img

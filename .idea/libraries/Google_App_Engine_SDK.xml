@@ -86,6 +86,7 @@
       <root url="file:///lib/libvpx.so.6.2.0" />
       <root url="file:///lib/d3d" />
       <root url="file:///lib/libcom_err.so.2.1" />
+      <root url="file:///lib/libxdot.so.4" />
       <root url="file:///lib/libpoppler-qt5.so" />
       <root url="file:///lib/libsord-0.so.0" />
       <root url="file:///lib/libfakekey.so.0.0.1" />
@@ -187,7 +188,6 @@
       <root url="file:///lib/libQt5Sensors.prl" />
       <root url="file:///lib/colord" />
       <root url="file:///lib/libtiger.so.5" />
-      <root url="file:///lib/libprotoc.so.22" />
       <root url="file:///lib/libxcb-xvmc.so.0" />
       <root url="file:///lib/libcairo-script-interpreter.so.2" />
       <root url="file:///lib/libkdecorations2private.so" />
@@ -264,6 +264,7 @@
       <root url="file:///lib/libcap-ng.so.0.0.0" />
       <root url="file:///lib/libglib-2.0.so.0.6400.3" />
       <root url="file:///lib/libQt5PlatformCompositorSupport.a" />
+      <root url="file:///lib/libprotobuf-lite.so.23.0.0" />
       <root url="file:///lib/GNUstep" />
       <root url="file:///lib/gtk3_preview" />
       <root url="file:///lib/libfftw3f.so" />
@@ -319,7 +320,6 @@
       <root url="file:///lib/awk" />
       <root url="file:///lib/libstoken.so.1.3.0" />
       <root url="file:///lib/libKF5Attica.so.5.70.0" />
-      <root url="file:///lib/liblcms2.so.2.0.8" />
       <root url="file:///lib/libKPimGAPITasks.so" />
       <root url="file:///lib/libtwolame.so.0.0.0" />
       <root url="file:///lib/xorg" />
@@ -385,8 +385,8 @@
       <root url="file:///lib/libxml2.so.2" />
       <root url="file:///lib/libpng16.so" />
       <root url="file:///lib/liboath.so" />
+      <root url="file:///lib/libprotobuf.so.23" />
       <root url="file:///lib/webkit2gtk-4.0" />
-      <root url="file:///lib/libprotobuf-lite.so.22" />
       <root url="file:///lib/libQt5PlatformCompositorSupport.prl" />
       <root url="file:///lib/libQt5QuickParticles.so.5" />
       <root url="file:///lib/libKF5MailTransport.so.5" />
@@ -400,6 +400,7 @@
       <root url="file:///lib/libwpe-1.0.so" />
       <root url="file:///lib/libpython3.so" />
       <root url="file:///lib/libplasma-geolocation-interface.so.5.18.5" />
+      <root url="file:///lib/libcdt.so.5.0.0" />
       <root url="file:///lib/libQtOpenGL.so.4.8.7" />
       <root url="file:///lib/libX11.so" />
       <root url="file:///lib/libdca.so.0.0.0" />
@@ -437,6 +438,7 @@
       <root url="file:///lib/libaprutil-1.so.0.6.1" />
       <root url="file:///lib/libaoss.so" />
       <root url="file:///lib/libwx_baseu_xml-3.0.so.0.5.0" />
+      <root url="file:///lib/libgvpr.so" />
       <root url="file:///lib/libraptor2.so" />
       <root url="file:///lib/libseccomp.so.2.4.2" />
       <root url="file:///lib/kactivitymanagerd" />
@@ -633,6 +635,7 @@
       <root url="file:///lib/libQtGui.so" />
       <root url="file:///lib/pkgconfig" />
       <root url="file:///lib/libQt5X11Extras.prl" />
+      <root url="file:///lib/libpathplan.so.4.0.0" />
       <root url="file:///lib/libudev.so.1" />
       <root url="file:///lib/liblsmash.so" />
       <root url="file:///lib/libopus.so" />
@@ -650,6 +653,7 @@
       <root url="file:///lib/libzita-resampler.so" />
       <root url="file:///lib/libpython3.8.so.1.0" />
       <root url="file:///lib/libKF5DAV.so.5" />
+      <root url="file:///lib/libpathplan.so" />
       <root url="file:///lib/libbtrfsutil.so.1.2.0" />
       <root url="file:///lib/libkaddressbookmergelibprivate.so.5.14.1" />
       <root url="file:///lib/libGLESv2.so.2" />
@@ -734,6 +738,7 @@
       <root url="file:///lib/libkadm5srv_mit.so" />
       <root url="file:///lib/libSPIRV-Tools.so" />
       <root url="file:///lib/libXaw.so" />
+      <root url="file:///lib/libxdot.so.4.0.0" />
       <root url="file:///lib/libatomic_ops.so.1" />
       <root url="file:///lib/libltdl.so.7.3.1" />
       <root url="file:///lib/libKF5Solid.so" />
@@ -817,6 +822,7 @@
       <root url="file:///lib/libKF5Style.so.5.70.0" />
       <root url="file:///lib/libwoff2common.so.1.0.2" />
       <root url="file:///lib/libKF5WaylandServer.so" />
+      <root url="file:///lib/libprotoc.so.23" />
       <root url="file:///lib/libpkcs11-helper.so.1.0.0" />
       <root url="file:///lib/libQt5Script.so.5.14" />
       <root url="file:///lib/libnetsnmpmibs.so.35.0.0" />
@@ -1071,6 +1077,7 @@
       <root url="file:///lib/libIexMath.so" />
       <root url="file:///lib/libturbojpeg.so.0" />
       <root url="file:///lib/org_kde_powerdevil" />
+      <root url="file:///lib/libgts-0.7.so.5" />
       <root url="file:///lib/libwpg-0.3.so" />
       <root url="file:///lib/libsignon-plugins-common.so.1.0" />
       <root url="file:///lib/libQtXml.so" />
@@ -1254,6 +1261,7 @@
       <root url="file:///lib/libboost_coroutine.so.1" />
       <root url="file:///lib/libgmodule-2.0.so" />
       <root url="file:///lib/libgo.so.16.0.0" />
+      <root url="file:///lib/libucl.so" />
       <root url="file:///lib/libQt5VirtualKeyboard.so.5" />
       <root url="file:///lib/libpangox-1.0.so.0.0.0" />
       <root url="file:///lib/libwps-0.4.so.4" />
@@ -1292,7 +1300,6 @@
       <root url="file:///lib/libical-glib.so.3" />
       <root url="file:///lib/libgee-0.8.so.2.6.1" />
       <root url="file:///lib/libnm.so.0" />
-      <root url="file:///lib/libprotobuf-lite.so.22.0.4" />
       <root url="file:///lib/libvolume_key.so.1" />
       <root url="file:///lib/libQtScriptTools.so.4" />
       <root url="file:///lib/libKF5AkonadiAgentBase.so.5" />
@@ -1385,6 +1392,7 @@
       <root url="file:///lib/libneon.so" />
       <root url="file:///lib/libecpg.so" />
       <root url="file:///lib/libgrammarcommon.so.5" />
+      <root url="file:///lib/libgvc.so.6" />
       <root url="file:///lib/libboost_date_time.so.1.72" />
       <root url="file:///lib/libnumbertext-1.0.so.0" />
       <root url="file:///lib/libQt5MultimediaWidgets.so.5" />
@@ -1409,6 +1417,7 @@
       <root url="file:///lib/libKF5AkonadiSearchXapian.so.5.14.1" />
       <root url="file:///lib/libboost_type_erasure.so.1.72" />
       <root url="file:///lib/libboost_log.so.1.72.0" />
+      <root url="file:///lib/libcdt.so" />
       <root url="file:///lib/libQtXmlPatterns.so.4.8.7" />
       <root url="file:///lib/libpcre2-32.so.0.10.0" />
       <root url="file:///lib/libwayland-egl.so.1.0.0" />
@@ -1447,6 +1456,7 @@
       <root url="file:///lib/libspectre.so.1.1.9" />
       <root url="file:///lib/libvolume_key.so.1.2.3" />
       <root url="file:///lib/libicudata.so.67" />
+      <root url="file:///lib/liblab_gamut.so.1.0.0" />
       <root url="file:///lib/libgstbadaudio-1.0.so.0.1602.0" />
       <root url="file:///lib/libpulse.so" />
       <root url="file:///lib/libwx_gtk2u_core-3.0.so" />
@@ -1476,6 +1486,7 @@
       <root url="file:///lib/libbreezecommon5.so.5" />
       <root url="file:///lib/libKF5QuickAddons.so.5" />
       <root url="file:///lib/libgupnp-1.2.so" />
+      <root url="file:///lib/libgpg-error.so.0.29.0" />
       <root url="file:///lib/libgphobos.so.1.0.0" />
       <root url="file:///lib/libboost_math_tr1l.so.1.72.0" />
       <root url="file:///lib/libwine.so.1" />
@@ -1644,6 +1655,7 @@
       <root url="file:///lib/liborcus-0.15.so.0" />
       <root url="file:///lib/liblsan_preinit.o" />
       <root url="file:///lib/libKF5IMAP.so" />
+      <root url="file:///lib/libcgraph.so" />
       <root url="file:///lib/libmpeg2convert.so.0.0.0" />
       <root url="file:///lib/libI810XvMC.so.1.0.0" />
       <root url="file:///lib/libboost_contract.so.1.72" />
@@ -1670,6 +1682,7 @@
       <root url="file:///lib/libIlmThread-2_5.so" />
       <root url="file:///lib/libedit.so" />
       <root url="file:///lib/libKF5AkonadiMime.so.5.14.1" />
+      <root url="file:///lib/libcgraph.so.6.0.0" />
       <root url="file:///lib/libkolabxml.so" />
       <root url="file:///lib/libKF5SendLater.so" />
       <root url="file:///lib/libsamba-credentials.so" />
@@ -1875,7 +1888,6 @@
       <root url="file:///lib/libKF5Screen.so.7" />
       <root url="file:///lib/libxcb-icccm.so.4" />
       <root url="file:///lib/kernel" />
-      <root url="file:///lib/libprotoc.so.22.0.4" />
       <root url="file:///lib/libsmbclient.so.0.6.0" />
       <root url="file:///lib/libgranite.so.5" />
       <root url="file:///lib/libgdkglext-x11-1.0.so.0.0.0" />
@@ -1902,9 +1914,11 @@
       <root url="file:///lib/libKF5CalendarUtils.so.5" />
       <root url="file:///lib/libpspell.so.15.3.1" />
       <root url="file:///lib/libQt5Network.so.5.14.2" />
+      <root url="file:///lib/lua" />
       <root url="file:///lib/libcolorcorrect.so.5" />
       <root url="file:///lib/liblangtag.so" />
       <root url="file:///lib/gvfsd-gphoto2" />
+      <root url="file:///lib/libprotobuf-lite.so.23" />
       <root url="file:///lib/udev" />
       <root url="file:///lib/libFAudio.so" />
       <root url="file:///lib/libKF5WidgetsAddons.so" />
@@ -1938,6 +1952,7 @@
       <root url="file:///lib/libboost_chrono.so.1.72.0" />
       <root url="file:///lib/libzvbi-chains.so.0" />
       <root url="file:///lib/nm-openvpn-service-openvpn-helper" />
+      <root url="file:///lib/libxdot.so" />
       <root url="file:///lib/libmarkdown.so.2.2.6" />
       <root url="file:///lib/libipq.so.0.0.0" />
       <root url="file:///lib/libdcerpc-samr.so.0" />
@@ -2063,7 +2078,6 @@
       <root url="file:///lib/libGLX.so" />
       <root url="file:///lib/libv4l" />
       <root url="file:///lib/libcpupower.so.0" />
-      <root url="file:///lib/libphonenumber.so.8.11" />
       <root url="file:///lib/libdw-0.179.so" />
       <root url="file:///lib/libQt5UiPlugin.prl" />
       <root url="file:///lib/libprocps.so.8" />
@@ -2108,6 +2122,7 @@
       <root url="file:///lib/libboost_python27.so.1.72.0" />
       <root url="file:///lib/libminilzo.so" />
       <root url="file:///lib/libfftw3q.so.3" />
+      <root url="file:///lib/libgvc.so.6.0.0" />
       <root url="file:///lib/libamtk-5.so.0.0.0" />
       <root url="file:///lib/libFLAC++.so" />
       <root url="file:///lib/liblangtag-gobject.so.0" />
@@ -2368,6 +2383,7 @@
       <root url="file:///lib/libkmaillanguagetool.so.5.14.1" />
       <root url="file:///lib/liblzma.so.5" />
       <root url="file:///lib/libcord.so" />
+      <root url="file:///lib/libgvc.so" />
       <root url="file:///lib/libKF5Mime.so" />
       <root url="file:///lib/libgmp.so.10" />
       <root url="file:///lib/libffi.so" />
@@ -2461,6 +2477,7 @@
       <root url="file:///lib/libavahi-libevent.so.1" />
       <root url="file:///lib/libre2.so.7" />
       <root url="file:///lib/libp11-kit.so" />
+      <root url="file:///lib/libgts-0.7.so.5.0.1" />
       <root url="file:///lib/libavahi-common.so.3.5.4" />
       <root url="file:///lib/libQt5QmlModels.prl" />
       <root url="file:///lib/libpsx.a" />
@@ -2482,6 +2499,7 @@
       <root url="file:///lib/gdk-pixbuf-2.0" />
       <root url="file:///lib/libasan.so.6" />
       <root url="file:///lib/libns.so" />
+      <root url="file:///lib/libucl.so.1.0.0" />
       <root url="file:///lib/libQt5Sensors.so.5.14.2" />
       <root url="file:///lib/libKF5DNSSD.so.5" />
       <root url="file:///lib/libboost_random.so" />
@@ -2734,6 +2752,7 @@
       <root url="file:///lib/p11-kit-trust.so" />
       <root url="file:///lib/libQt5KmsSupport.prl" />
       <root url="file:///lib/libnsl.so" />
+      <root url="file:///lib/libnetpbm.so" />
       <root url="file:///lib/libmicrohttpd.so.12.55.0" />
       <root url="file:///lib/libQt5WaylandCompositor.so.5.14.2" />
       <root url="file:///lib/libmbedcrypto.so.3" />
@@ -2754,6 +2773,7 @@
       <root url="file:///lib/libbfd-2.34.0.so" />
       <root url="file:///lib/libwayland-cursor.so.0" />
       <root url="file:///lib/libXfont2.so.2.0.0" />
+      <root url="file:///lib/libpathplan.so.4" />
       <root url="file:///lib/libmad.so.0" />
       <root url="file:///lib/libplasmanm_internal.so" />
       <root url="file:///lib/libproxy" />
@@ -2771,6 +2791,7 @@
       <root url="file:///lib/liborcus-parser-0.15.so.0.0.0" />
       <root url="file:///lib/libboost_serialization.so.1" />
       <root url="file:///lib/libdrm_intel.so" />
+      <root url="file:///lib/libprotoc.so.23.0.0" />
       <root url="file:///lib/libaudit.so.1.0.0" />
       <root url="file:///lib/mail-dotlock" />
       <root url="file:///lib/libxcb-util.so.1" />
@@ -2872,6 +2893,7 @@
       <root url="file:///lib/libnetsnmphelpers.so.35.0.0" />
       <root url="file:///lib/libmilou.so.5" />
       <root url="file:///lib/libnss_files-2.31.so" />
+      <root url="file:///lib/liblcms2.so.2.0.10" />
       <root url="file:///lib/libKF5KIOGui.so.5" />
       <root url="file:///lib/libpopt.so.0.0.0" />
       <root url="file:///lib/libQtDesignerComponents.so.4" />
@@ -2910,6 +2932,7 @@
       <root url="file:///lib/libepub.so.0.2.1" />
       <root url="file:///lib/libcursesw.so" />
       <root url="file:///lib/libcelt0.so.2.0.0" />
+      <root url="file:///lib/liblab_gamut.so.1" />
       <root url="file:///lib/libportaudiocpp.so" />
       <root url="file:///lib/libdbusmenu-glib.so" />
       <root url="file:///lib/libnetsnmptrapd.so.35.0.0" />
@@ -3079,7 +3102,6 @@
       <root url="file:///lib/libsamba-hostconfig.so" />
       <root url="file:///lib/gvfsd-mtp" />
       <root url="file:///lib/libsoup-gnome-2.4.so.1.9.0" />
-      <root url="file:///lib/libgpg-error.so.0.28.0" />
       <root url="file:///lib/libogg.so" />
       <root url="file:///lib/liborc-0.4.so" />
       <root url="file:///lib/libgstvideo-1.0.so.0.1602.0" />
@@ -3247,6 +3269,7 @@
       <root url="file:///lib/libvlc.so.5" />
       <root url="file:///lib/libxcb.so" />
       <root url="file:///lib/libargon2.so" />
+      <root url="file:///lib/libucl.so.1" />
       <root url="file:///lib/libndctl.so.6.17.0" />
       <root url="file:///lib/libboost_system.so.1.72.0" />
       <root url="file:///lib/libqrencode.so" />
@@ -3329,7 +3352,6 @@
       <root url="file:///lib/libsrt.so.1.4.1" />
       <root url="file:///lib/libXi.so.6.1.0" />
       <root url="file:///lib/libulockmgr.so.1.0.1" />
-      <root url="file:///lib/libtommath.a" />
       <root url="file:///lib/nm-iface-helper" />
       <root url="file:///lib/libkaccounts.so.1" />
       <root url="file:///lib/libKF5MailImporterAkonadi.so.5.14.1" />
@@ -3337,6 +3359,7 @@
       <root url="file:///lib/libcrypto.so" />
       <root url="file:///lib/libKPimGAPILatitude.so.5" />
       <root url="file:///lib/libinput.so.10" />
+      <root url="file:///lib/libgeocoding.so.8.12" />
       <root url="file:///lib/libKF5GlobalAccelPrivate.so.5.70.0" />
       <root url="file:///lib/libkwinxrenderutils.so" />
       <root url="file:///lib/libe2p.so.2.3" />
@@ -3392,6 +3415,7 @@
       <root url="file:///lib/libxmlsec1-gcrypt.so.1.2.30" />
       <root url="file:///lib/libQt5Multimedia.so" />
       <root url="file:///lib/libudev.so" />
+      <root url="file:///lib/libnetpbm.so.11" />
       <root url="file:///lib/libKF5AkonadiPrivate.so.5.14.1" />
       <root url="file:///lib/libKF5PeopleWidgets.so" />
       <root url="file:///lib/libid3tag.so.0.3.0" />
@@ -3543,7 +3567,6 @@
       <root url="file:///lib/libmagic.so" />
       <root url="file:///lib/libunwind-ptrace.so.0" />
       <root url="file:///lib/libopenjp2.so.7" />
-      <root url="file:///lib/libgeocoding.so.8.11" />
       <root url="file:///lib/libidn.so.12" />
       <root url="file:///lib/gssproxy" />
       <root url="file:///lib/tdbcodbc1.1.1" />
@@ -3590,6 +3613,7 @@
       <root url="file:///lib/libdv.so.4" />
       <root url="file:///lib/libv4lconvert.so.0" />
       <root url="file:///lib/libKPimGAPIMaps.so.5" />
+      <root url="file:///lib/libnetpbm.so.11.73" />
       <root url="file:///lib/libbluetooth.so.3.19.2" />
       <root url="file:///lib/libdcerpc.so" />
       <root url="file:///lib/libgdiplus.so.0.0.0" />
@@ -3643,6 +3667,7 @@
       <root url="file:///lib/libopenconnect.so.5" />
       <root url="file:///lib/libQt5XcbQpa.so.5.14" />
       <root url="file:///lib/libpkgconf.so.3" />
+      <root url="file:///lib/graphviz" />
       <root url="file:///lib/libkdeconnectpluginkcm.so.1.4.0" />
       <root url="file:///lib/libKPimGAPICalendar.so" />
       <root url="file:///lib/libbytesize.so.1" />
@@ -3653,6 +3678,7 @@
       <root url="file:///lib/libv4lconvert.so.0.0.0" />
       <root url="file:///lib/libnetsnmpmibs.so" />
       <root url="file:///lib/libnpth.so.0.1.2" />
+      <root url="file:///lib/libphonenumber.so.8.12" />
       <root url="file:///lib/libnl-3.so" />
       <root url="file:///lib/libmysqld.so" />
       <root url="file:///lib/libgccpp.so" />
@@ -3762,7 +3788,6 @@
       <root url="file:///lib/libzmq.a" />
       <root url="file:///lib/libkmailquicktextpluginprivate.so.5.14.1" />
       <root url="file:///lib/libKF5Contacts.so.5.70.0" />
-      <root url="file:///lib/libprotobuf.so.22" />
       <root url="file:///lib/libdvbpsi.so" />
       <root url="file:///lib/libQt5FontDatabaseSupport.a" />
       <root url="file:///lib/libnssutil3.so" />
@@ -3945,6 +3970,7 @@
       <root url="file:///lib/libQt5Qml.so.5.14.2" />
       <root url="file:///lib/man-db" />
       <root url="file:///lib/libmenuw.so.6.2" />
+      <root url="file:///lib/libgvpr.so.2" />
       <root url="file:///lib/krb5" />
       <root url="file:///lib/libpsl.so" />
       <root url="file:///lib/libcap.so" />
@@ -4040,6 +4066,7 @@
       <root url="file:///lib/libpangoxft-1.0.so.0.4400.7" />
       <root url="file:///lib/libdrm_nouveau.so" />
       <root url="file:///lib/libKF5KIOFileWidgets.so" />
+      <root url="file:///lib/libvulkan.so.1.2.141" />
       <root url="file:///lib/libpkgconf.so.3.0.0" />
       <root url="file:///lib/libboost_serialization.so.1.72" />
       <root url="file:///lib/libxcb-present.so.0.0.0" />
@@ -4135,6 +4162,7 @@
       <root url="file:///lib/libQt5QmlModels.so.5.14" />
       <root url="file:///lib/gvfsd-metadata" />
       <root url="file:///lib/libKF5ConfigGui.so.5.70.0" />
+      <root url="file:///lib/libcgraph.so.6" />
       <root url="file:///lib/librevenge-stream-0.0.so" />
       <root url="file:///lib/libtevent-util.so.0" />
       <root url="file:///lib/libappstream.so" />
@@ -4233,7 +4261,6 @@
       <root url="file:///lib/libpangox-1.0.so.0" />
       <root url="file:///lib/libpam_misc.so.0" />
       <root url="file:///lib/kimpanel-ibus-panel" />
-      <root url="file:///lib/libvulkan.so.1.2.140" />
       <root url="file:///lib/libXdamage.so.1.1.0" />
       <root url="file:///lib/libboost_chrono.so.1" />
       <root url="file:///lib/libssl3.so" />
@@ -4261,7 +4288,6 @@
       <root url="file:///lib/libpanel.so" />
       <root url="file:///lib/libstoken.so.1" />
       <root url="file:///lib/libKF5Solid.so.5.70.0" />
-      <root url="file:///lib/libprotobuf.so.22.0.4" />
       <root url="file:///lib/libhdr10plus.so" />
       <root url="file:///lib/libKF5ContactEditor.so.5" />
       <root url="file:///lib/libQt5PrintSupport.so.5.14" />
@@ -4327,6 +4353,7 @@
       <root url="file:///lib/libgstfft-1.0.so" />
       <root url="file:///lib/libip6tc.so" />
       <root url="file:///lib/libdevmapper.so.1.02" />
+      <root url="file:///lib/libcdt.so.5" />
       <root url="file:///lib/libopus.so.0.8.0" />
       <root url="file:///lib/libI810XvMC.so" />
       <root url="file:///lib/libXrandr.so.2" />
@@ -4477,6 +4504,7 @@
       <root url="file:///lib/libKF5ModemManagerQt.so.6" />
       <root url="file:///lib/libnl-genl-3.so.200.26.0" />
       <root url="file:///lib/libgeocoding.so.8" />
+      <root url="file:///lib/liblab_gamut.so" />
       <root url="file:///lib/libgstgl-1.0.so" />
       <root url="file:///lib/libblkid.so.1" />
       <root url="file:///lib/libfaad_drm.so.2.0.0" />
@@ -4504,6 +4532,7 @@
       <root url="file:///lib/libconfuse.so.2" />
       <root url="file:///lib/libtasn1.so.6.6.0" />
       <root url="file:///lib/libQt5Sql.so.5.14" />
+      <root url="file:///lib/libgts.so" />
       <root url="file:///lib/libslang.so.2.3.2" />
       <root url="file:///lib/libvlccore.so.9" />
       <root url="file:///lib/libavahi-qt5.so.1" />
@@ -4623,6 +4652,7 @@
       <root url="file:///lib/libQt5Widgets.so.5.14.2" />
       <root url="file:///lib/libQt5WaylandCompositor.so.5.14" />
       <root url="file:///lib/libslang.so" />
+      <root url="file:///lib/libgvpr.so.2.0.0" />
       <root url="file:///lib/libm-2.31.a" />
       <root url="file:///lib/libpgm.so" />
       <root url="file:///lib/libnss_dns.so" />
@@ -4669,6 +4699,7 @@
       <root url="file:///lib/libpytalloc-util.cpython-38-x86-64-linux-gnu.so" />
       <root url="file:///lib/libgnutls.so.30" />
       <root url="file:///lib/libmwaw-0.3.so.3" />
+      <root url="file:///lib/libprotobuf.so.23.0.0" />
       <root url="file:///lib/libcfitsio.so" />
       <root url="file:///lib/libmono-2.0.so" />
       <root url="file:///lib/libKF5DBusAddons.so.5.70.0" />
