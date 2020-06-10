@@ -7,6 +7,7 @@ from apiCNN.Logica import modeloCNN
 from apiCNN.models import Imagen
 from django.core import serializers
 
+
 def obtener_imagen(data_url, base_dir):
     _format, _dataurl = data_url.split(';base64,')
     _filename, _extension = secrets.token_hex(20), _format.split('/')[-1]
@@ -32,7 +33,6 @@ def obtener_imagen(data_url, base_dir):
 
 def listar_registros():
     imagenes = Imagen.objects.all()
-    print('<<<<<<<<< --------- >>>>>>>>>')
     imagenes_json = serializers.serialize('json', imagenes)
     print(imagenes_json)
     return imagenes_json
