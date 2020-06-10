@@ -10,6 +10,8 @@ class Initial():
     def main_page(request):
         return render(request, "main.html")
 
+    def informe(request):
+        return render(request, 'ml_cnn.html')
 
 class Clasificacion():
     def upload_image(request):
