@@ -26,7 +26,7 @@ SECRET_KEY = 'cofatjc=*e6=bg&2boyecis_v(c+4!frkdqz7^e(o(fn86lhq-'
 DEBUG = True
 
 #ESTO SE MODIFICÓ. SE DEBE PONER EL DOMINIO ESPECÍFICO
-ALLOWED_HOSTS = ['35.232.94.252', '0.0.0.0', '192.168.1.10', '107.178.213.194', '127.0.0.1', 'proyectomlweb.uc.r.appspot.com', 'proyectomlweb.appspot.com']
+ALLOWED_HOSTS = ['microdev.info', '35.232.94.252', '0.0.0.0', '192.168.1.10', '107.178.213.194', '127.0.0.1']
 
 # Application definition
 
