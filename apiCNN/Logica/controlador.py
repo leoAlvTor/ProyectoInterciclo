@@ -16,7 +16,6 @@ def obtener_imagen(data_url, base_dir):
     image = Image.open(file)
     image_io = io.BytesIO()
     image = image.resize((150, 150), Image.ANTIALIAS)
-    print(_extension + '<------------------------------------')
     image.save(image_io, format=_extension)
     file = ContentFile(image_io.getvalue(), name=f"{_filename}.{_extension}")
     fss = FileSystemStorage()
